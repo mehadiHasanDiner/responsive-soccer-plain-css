@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #ffffff
 }
 .banner{
     background-color: #2D25A0;
@@ -12,8 +13,8 @@ body{
 
 }
 .banner-bg{
-    width: 747px;
-    height: 695px;
+    width: 1050px;
+    height: 680px;
     display: flex;
     align-items:center;
 }
@@ -30,4 +31,15 @@ body{
 }
 .banner-image{
     width: 50%;
+}
+.theme-btn{
+    background-color: #E02C6D;
+    padding:5px 20px;
+    color: white;
+    border: none;
+    font-size: 16px;
+
+}
+.space {
+    padding-left: 5px;
 }
