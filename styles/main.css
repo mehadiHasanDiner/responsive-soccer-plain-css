@@ -1,18 +1,25 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+/* ------------------
+ Common Style
+ -------------------- */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: #ffffff
 }
-.banner{
+
+/* ------------------
+banner style 
+------------------ */
+.banner-bg{
     background-color: #2D25A0;
     display: flex;
     justify-content: center;
 
 }
-.banner-bg{
+.banner{
     width: 1050px;
     height: 680px;
     display: flex;
@@ -42,4 +49,35 @@ body{
 }
 .space {
     padding-left: 5px;
+}
+
+/* -------------
+Players style
+--------------- */
+.players-section{
+    width: 1020px;
+    margin: 0 auto;
+
+}
+.players{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:15px;
+    grid-row-gap:15px;
+    /* justify-items: center; */
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 15px 5px lightgrey;
+}
+.players .player img{
+    width: 100%;
+}
+
+.player-name{
+    font-size: 22px;
+    margin: 3px 0 3px;
 }
